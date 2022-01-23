@@ -1,0 +1,49 @@
+name: Ward
+version: 1.0
+api-version: 1.14
+main: me.markiscool.WardPlugin
+commands:
+  home:
+    usage: /<command> [home_name]
+    description: Teleport to your home
+  sethome:
+    usage: /<command> [home_name]
+    description: Set your location as a home
+  delhome:
+    usage: /<command> [home_name]
+    description: Delete a home
+  homes:
+    usage: /<command>
+    description: View all of your homes
+  homesview:
+    usage: /<command> <player>
+    description: View the homes of another player
+  tpa:
+    usage: /<command> <profile>
+    description: Send a teleport request
+  tpaccept:
+    usage: /<command>
+    description: Accept an incoming teleport request
+  tpdeny:
+    usage: /<command>
+    description: Deny an incoming teleport request
+  broadcast:
+    usage: /<command>
+    aliases: [bc]
+    description: Broadcast a message to the server
+  broadcastadd:
+    usage: /<command> <msg>
+    description: Add a periodic broadcast message
+    aliases: [bcadd, broadcastadd]
+  broadcastdelete:
+    usage: /<command> <index>
+    description: Remove a broadcast
+    aliases: [bcdel, broadcastdel, bcdelete]
+  broadcastlist:
+    usage: /<command>
+    description: List broadcast messages
+    aliases: [bclist]
+  profile:
+    usage: /<command> [player]
+    description: View the profile of a player
+    aliases: [prf]
